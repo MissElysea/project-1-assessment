@@ -10,7 +10,7 @@ h1 {
 
 section {
 	display: flex;  /* defaults to row layout */
-	justify-content: space-between;  /* centers items horizontally in row layout */
+	justify-content: space-around;  /* centers items horizontally in row layout */
 	align-items: center;  /* centers vertically in row layout */
 	/* flex-direction: column; will set layout to column instead of row */
 }
@@ -18,6 +18,10 @@ section {
 #count {
     text-align: center;
     padding: 100px;
+}
+
+input {
+    text-align: center;
 }
 
 button {
