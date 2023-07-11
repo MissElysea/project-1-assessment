@@ -4,9 +4,13 @@ document.getElementById('plus').onclick = Plus;
 document.getElementById('minus').onclick = Minus;
 
 function Plus() {
-    document.getElementById('number').innerHTML = count + 1;
+    count = count + 1;
+    document.getElementById('number').value = count;
+    document.getElementById('count-value').innerHTML = count;
 }
 
 function Minus() {
-    document.getElementById('minus').innerHTML = count - 1;
+    count = count - 1;
+    document.getElementById('number').value = count;
+    document.getElementById('count-value').innerHTML = count;
 }

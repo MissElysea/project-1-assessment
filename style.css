@@ -1,13 +1,36 @@
+body {
+    background-color: purple;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Over the Rainbow', cursive;
+}
+
 section {
 	display: flex;  /* defaults to row layout */
-	justify-content: center;  /* centers items horizontally in row layout */
+	justify-content: space-between;  /* centers items horizontally in row layout */
 	align-items: center;  /* centers vertically in row layout */
 	/* flex-direction: column; will set layout to column instead of row */
+}
+
+#count {
+    text-align: center;
+    padding: 100px;
+}
+
+button {
+    height: 50px;
+    width: 50px;
+    color:white;
+    background-color: black;
 }
 
 #number {
     height: 50px;
     width: 100px;
     border-radius: 10px;
-    border: rgb(193, 8, 38);
+    color: white;
+    background-color: black;
 }
